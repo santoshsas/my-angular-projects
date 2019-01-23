@@ -9,7 +9,9 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  
+  @Input() layout: string= "vertical";
+  @Input() styleClass: string;
+
   constructor() { }
 
   ngOnInit() {

@@ -1,3 +1,3 @@
-<p>
-  ToolBar!!!
-</p>
+<div [class]="styleClass" [ngClass]="{'hor-toolbar': layout =='horizontal', 'vertical-toolbar': layout =='vertical' }">
+  <ng-content></ng-content>
+</div>
