@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, OnInit, Input, ViewEncapsulation } from '@angular/core';
 /**
  * This is Toolbar component which will be container component containing other sub components which will act as toolbar items.
  */
@@ -9,7 +9,7 @@ import { Component, OnInit, Input } from '@angular/core';
 })
 export class ToolbarComponent implements OnInit {
 
-  @Input() layout: string= "vertical";
+  @Input() layout: string ="horizontal";
   @Input() styleClass: string;
 
   constructor() { }

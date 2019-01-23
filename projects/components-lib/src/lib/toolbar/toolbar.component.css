@@ -1,0 +1,25 @@
+
+.toolbar{
+    border: 1px solid #e1dddd;
+    background-color: #f7f1f1;
+    padding: 10px; 
+    display: table;
+    box-sizing: border-box;
+}
+
+.vertical-toolbar{
+    width: 50px;
+    height: 90vh ;
+}
+
+.horizontal-toolbar{
+    width: 100%;
+    height: auto;
+}
+:host  /deep/ .horizontal-toolbar .left-align-items {
+        float: left;
+}
+
+:host  /deep/ .horizontal-toolbar .right-align-items{
+    float: right;
+}
