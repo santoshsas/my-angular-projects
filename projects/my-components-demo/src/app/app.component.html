@@ -4,22 +4,33 @@
     Welcome to Components Demo!
   </h1>
 </div>
-<h2>Toolbar</h2>
 <div>
+  <h3>Horizontal Toolbar</h3>
   <my-toolbar layout="horizontal">
     <div class="left-align-items">
-        <button type="button" >Save1</button>
-        <button type="button" >Save2</button>
-        <button type="button" >Save3</button>
-        <button type="button" >Save4</button>
-        <button type="button" >Save5</button>
+        <button  type="button" > <fa-icon [icon]="['far', 'save']"></fa-icon></button>
+        <button type="button" ><fa-icon [icon]="['far', 'file']"></fa-icon></button>
+        <button type="button" ><fa-icon [icon]="['far', 'clock']"></fa-icon></button>
+        <button type="button" ><fa-icon [icon]="['far', 'calendar-times']"></fa-icon></button>
+        <button type="button" >comp 1</button>
     </div>
     <div class="right-align-items">
-        <button type="button" >Save6</button>
-        <button type="button" >Save7</button>
+        <button type="button" >comp 2</button>
+        <button type="button" >comp 3</button>
         
     </div>
   </my-toolbar>
+</div>
+<div>
+    <h3>Vertical Toolbar</h3>
+    <my-toolbar layout="vertical">
+        <div class="left-align-items">
+            <button  type="button" > <fa-icon [icon]="['far', 'save']"></fa-icon></button>
+            <button type="button" ><fa-icon [icon]="['far', 'file']"></fa-icon></button>
+            <button type="button" ><fa-icon [icon]="['far', 'clock']"></fa-icon></button>
+            <button type="button" ><fa-icon [icon]="['far', 'calendar-times']"></fa-icon></button>
+        </div>
+      </my-toolbar>
 </div>
 
 
