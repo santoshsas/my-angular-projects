@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve",
     "build": "ng build",
-    "deploy": "ng build --project='my-components-demo' --prod --base-href 'https://santoshsas.github.io/my-angular-projects/' --output-path docs && git push origin",
+    "deploy": "ng build --project='my-components-demo' --prod --base-href 'https://santoshsas.github.io/my-angular-projects/' --output-path docs",
     "test": "ng test",
     "lint": "ng lint",
     "e2e": "ng e2e"
